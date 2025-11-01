@@ -1,0 +1,211 @@
+@font-face {
+    font-family: Montserrat;
+    src: url("../fonts/Montserrat-Bold.ttf") format("truetype");
+    font-weight: 700;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: Poppins;
+    src: url("../fonts/Poppins-Regular.ttf") format("truetype");
+    font-weight: 400;
+    font-style: normal;
+    font-display: swap;
+}
+
+:root{
+    --color-neutral-0: #0e0c0c;
+    --color-neutral-10: #171717;
+    --color-neutral-30: #a8a29e;
+    --color-neutral-40: #f5f5f5;
+}
+
+
+*{
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    background-image: url(../img/barco-por-do-sol.jpg);
+    background-color: #E0FFFF;
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+}
+
+header img{
+    display: block;
+    margin: 0 0 0 40px;
+    width: 200px;    
+    height: auto; 
+    max-width: 100%;
+}
+
+header{
+    background-color: rgba(0, 0, 0, 0.6);
+}
+
+h1{
+    font-family: Montserrat, sans-serif;
+    font-size: 64px;
+    color: #FFFFFF;
+    text-align: center;
+    margin-top: 100px;
+}
+
+.trabalho-campo{
+    font-family: Poppins, sans-serif;
+    font-size: 20px;
+    color: #E0FFFF;
+    text-align: center;
+    margin: 180px 80px 0 80px;
+    padding: 23px 40px 25px;
+}
+
+.iniciativas {
+    color: #003B46; 
+    text-align: center;
+    background-color: #E0FFFF; 
+    margin-top: 53px;
+    padding-top: 54px;
+    padding-bottom: 54px;
+}
+
+.iniciativas h2{
+    font-family: Montserrat, sans-serif;
+    font-size: 30px;
+    text-align: center;
+}
+
+.titulo-projeto{
+    font-family: Montserrat, sans-serif;
+    font-size: 22px;
+    text-align: center;
+}
+
+.iniciativas p{
+    font-family: Poppins, sans-serif;
+    font-size: 16px;
+    text-align: center;
+    margin-top: 20px;
+}
+
+.container-cards-projeto {
+    display: flex;
+    flex-direction: row; 
+    justify-content: space-between; 
+    max-width: 1200px; 
+    margin: 0 auto; 
+    padding: 30px 20px;
+    gap: 20px;
+}
+
+
+.cards-projeto {
+    width: 32%; 
+    padding: 20px; 
+    background-color: #FFFFFF;
+    border-radius: 10px;
+}
+
+.imagem-projeto {
+    width: 100%; 
+    height: auto;
+    margin-top: 20px; 
+    border-radius: 10px;
+}
+
+.link-projeto{
+    font-family: Poppins, sans-serif;
+    font-size: 20px;
+    text-decoration: none;
+    color: #4FBF8E;
+    background-color: #FFFFFF;
+    text-align: center;
+    display: block;
+    width: 240px;
+    height: 40px;
+    border: #4FBF8E 3px solid;
+    border-radius: 20px;
+    line-height: 45px;
+    margin: 20px 52px;
+}
+
+.chamada-acao{
+    color: #003B46; 
+    text-align: center;
+    background-color: #E0FFFF; 
+    padding-top: 54px;
+    padding-bottom: 54px;
+}
+
+.container-caminhos{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-between; 
+    max-width: 1200px; 
+    margin: 0 auto; 
+    padding: 30px 20px;
+    gap: 20px;
+}
+
+.caminhos{
+    width: 32%; 
+    padding: 20px; 
+    background-color: #FFFFFF;
+    border-radius: 10px;
+}
+
+.doar{
+    font-family: Poppins, sans-serif;
+    font-size: 20px;
+    text-decoration: none;
+    color: #4FBF8E;
+    background-color: #FFFFFF;
+    text-align: center;
+    display: block;
+    width: 240px;
+    height: 40px;
+    border: #4FBF8E 3px solid;
+    border-radius: 20px;
+    line-height: 45px;
+    margin: 10px auto;
+}
+
+.titulo-intro{
+    font-family: Montserrat, sans-serif;
+    font-size: 28px;
+    color: #003B46;
+    text-align: center;
+    margin-top: 10px;
+}
+
+.paragrafo-intro{
+    font-family: Poppins, sans-serif;
+    font-size: 18px;
+    color: #003B46;
+    text-align: center;
+    margin-top: 10px;
+    padding: 10px 100px 0 100px;
+}
+
+.caminhos-titulo{
+    font-family: Poppins, sans-serif;
+    font-size: 22px;
+    color: #003B46;
+    text-align: center;
+    margin-top: 10px;
+}
+
+.caminhos-paragrafo{
+    font-family: Poppins, sans-serif;
+    font-size: 18px;
+    color: #003B46;
+    text-align: center;
+    margin-top: 10px;
+}
+

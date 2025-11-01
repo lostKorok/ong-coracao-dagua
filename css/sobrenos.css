@@ -1,0 +1,242 @@
+@font-face {
+    font-family: Montserrat;
+    src: url("../fonts/Montserrat-Bold.ttf") format("truetype");
+    font-weight: 700;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: Poppins;
+    src: url("../fonts/Poppins-Regular.ttf") format("truetype");
+    font-weight: 400;
+    font-style: normal;
+    font-display: swap;
+}
+
+:root{
+    --color-neutral-0: #0e0c0c;
+    --color-neutral-10: #171717;
+    --color-neutral-30: #a8a29e;
+    --color-neutral-40: #f5f5f5;
+}
+
+
+*{
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    /*background-image: url("../img/colaboracao-pessoas.jpg");*/
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-color: #105989;
+}
+
+header img{
+    display: block;
+    margin: 0 0 0 40px;
+    width: 200px;    
+    height: auto; 
+    max-width: 100%;
+}
+
+header{
+    background-color: rgba(0, 0, 0, 0.6);
+}
+
+
+h1{
+    font-family: Montserrat, sans-serif;
+    font-size: 64px;
+    color: #FFFFFF;
+    text-align: center;
+    margin-top: 100px;
+}
+
+
+
+section.introducao p{
+    font-family: Poppins, sans-serif;
+    font-size: 24px;
+    text-align: center;
+    color: #E0FFFF;
+    margin: 30px 80px 0 80px;
+    padding: 40px 0 50px 40px;
+    background-color: #0b3b5a;
+    border-radius: 40px;
+}
+
+hr{
+    margin: 0 40px 20px auto;
+    border-radius: 20px;
+}
+
+section.introducao h2{
+    font-family: Poppins, sans-serif;
+    font-size: 34px;
+    text-align: center;
+    margin-top: 120px;
+}
+
+section.fundamentos{
+    font-family: Poppins, sans-serif;
+    font-size: 24px;
+    text-align: center;
+    color: #E0FFFF;
+    margin: 30px 80px 0 80px;
+    padding: 40px 0 50px 40px;
+    background-color: #0b3b5a;
+    border-radius: 40px;
+}
+
+section.fundamentos h2{
+    margin: 0 0 50px;
+}
+
+section.fundamentos p{
+    margin: 50px;
+}
+
+.metricas{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 20px;
+}
+
+.bloco-metrica{
+    width: 90%;
+    text-align: center;
+    margin-bottom: 30px;
+    padding: 20px;
+    border: 1px solid #4FBF8E;
+}
+
+.numero-destaque{
+    font-size: 42px;
+    color: #4FBF8E;
+    font-family: Montserrat, sans-serif;
+    margin-bottom: 5px;
+}
+
+section.impacto{
+    background-color: #0b3b5a;
+    margin: 40px 80px 0 80px;
+    padding: 40px 0 50px 40px;
+    border-radius: 40px;
+}
+
+.resultados{
+    font-family: Montserrat, sans-serif;
+    text-align: center;
+    color: #E0FFFF;
+    font-size: 40px;
+}
+
+.intro{
+    font-family: poppins, sans-serif;
+    text-align: center;
+    color: #E0FFFF;
+    font-size: 28px;
+    margin: 40px 100px;
+}
+
+article p{
+    font-family: Poppins, sans-serif;
+    font-size: 26px;
+    color: #E0FFFF;
+}
+
+i{
+    font-size: 48px;
+    color: #4FBF8E;
+    margin-bottom: 10px;
+}
+
+.transparencia h2{
+    color: #E0FFFF;
+    font-family: Montserrat, sans-serif;
+    font-size: 40px;
+    text-align: center;
+    margin-top: 60px;
+}
+
+.transparencia h3{
+    color: #E0FFFF;
+    font-family: Montserrat, sans-serif;
+    font-size: 26px;
+    text-align: center;
+    margin-top: 40px;
+}
+
+.relatorio{
+    font-family: Poppins, sans-serif;
+    font-size: 30px;
+    text-decoration: none;
+    color: #4FBF8E;
+    background-color: #FFFFFF;
+    text-align: center;
+    display: block;
+    width: 480px;
+    height: 60px;
+    border: #4FBF8E 3px solid;
+    border-radius: 20px;
+    line-height: 66px;
+    margin: 40px auto;
+}
+
+.transparencia p{
+    font-family: Poppins, sans-serif;
+    font-size: 24px;
+    color: #E0FFFF;
+    text-align: center;
+    margin: 30px 80px 0 80px;
+}
+.container-equipe{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    padding: 20px;
+}
+
+.card-perfil{
+    width: 90%; 
+    text-align: center;
+    padding: 20px;
+    border: 1px solid #BBF3F9; 
+    border-radius: 8px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.05); 
+    margin-right: 20px;
+}
+
+.foto-perfil {
+    width: 120px; 
+    height: 120px;
+    border-radius: 50%; 
+    object-fit: cover;
+    margin-bottom: 15px;
+}
+
+.nome-lider {
+    font-family: 'Montserrat', sans-serif;
+    color: #003B46;
+    margin-bottom: 5px;
+}
+
+.cargo-lider {
+    font-family: 'Poppins', sans-serif;
+    color: #4FBF8E; 
+    font-weight: 600;
+    margin-bottom: 10px;
+}
+
+
+
+/*O que falta?
+Arrumar o perfils dos lideres
+Ajustar a section transparencia, ajustando tamanho, margens, fontes e bordas
+Finalizar rodape
+*/
