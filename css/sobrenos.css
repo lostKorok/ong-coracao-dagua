@@ -27,6 +27,51 @@
     padding: 0;
 }
 
+header{
+    background-color: rgba(0, 0, 0, 0.6);
+    font-family: 'Poppins', sans-serif;
+}
+
+.container-header{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    max-width: 1200px;
+    padding: 0 20px 10px 20px;
+    flex-wrap: wrap;
+    gap: 30px;
+}
+
+
+
+.header-links{
+    display: block;
+    color: #4FBF8E;
+    background-color: #FFFFFF;
+    text-decoration: none;
+    text-align: center;
+    line-height: 0;
+    padding-top: 25px;
+    width: 130px;
+    height: 20px;
+    margin-top: 15px;
+    border: #4FBF8E 3px solid;
+    border-radius: 20px;
+}
+
+.header-links a{
+    color: #4FBF8E;
+    text-decoration: none;
+}
+
+.header-logo img{
+    display: block;
+    margin-top: 10px;
+    width: 200px;    
+    height: auto; 
+    max-width: 100%; 
+}
+
 body{
     /*background-image: url("../img/colaboracao-pessoas.jpg");*/
     background-size: cover;
@@ -34,19 +79,6 @@ body{
     background-repeat: no-repeat;
     background-color: #105989;
 }
-
-header img{
-    display: block;
-    margin: 0 0 0 40px;
-    width: 200px;    
-    height: auto; 
-    max-width: 100%;
-}
-
-header{
-    background-color: rgba(0, 0, 0, 0.6);
-}
-
 
 h1{
     font-family: Montserrat, sans-serif;
