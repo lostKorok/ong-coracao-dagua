@@ -327,3 +327,69 @@ footer {
 .botao-doar-modal:hover {
     background-color: #002b33; 
 }
+
+footer {
+    background-color: #003B46;
+    color: #FFFFFF;
+    font-family: 'Poppins', sans-serif;
+    padding-top: 50px;
+}
+
+.container-footer {
+    display: flex;
+    flex-direction: row; 
+    justify-content: space-between; 
+    max-width: 1200px; 
+    margin: 0 auto;
+    padding: 0 20px 40px 20px; 
+    flex-wrap: wrap; 
+    gap: 30px; 
+}
+
+
+.footer-coluna {
+    width: 30%; 
+}
+
+.footer-coluna h3 {
+    font-family: 'Montserrat', sans-serif;
+    color: #4FBF8E; 
+    margin-bottom: 15px;
+    font-size: 1.2em;
+}
+
+.footer-coluna ul {
+    list-style: none; 
+    padding: 0;
+}
+
+.footer-coluna ul li a {
+    color: #E0FFFF; 
+    text-decoration: none;
+    line-height: 1.8;
+    transition: color 0.3s;
+}
+
+.footer-coluna ul li a:hover {
+    color: #FFFFFF; 
+}
+
+.footer-coluna img {
+    width: 240px; 
+    height: auto;
+    margin-bottom: 10px;
+}
+
+.footer-copyright {
+    background-color: rgba(0, 0, 0, 0.2);
+    text-align: center;
+    padding: 15px 0;
+    font-size: 0.9em;
+    border-top: 1px solid rgba(255, 255, 255, 0.1); 
+}
+
+.footer-copyright p {
+    margin: 0;
+    color: rgba(255, 255, 255, 0.7);
+}
+
