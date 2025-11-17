@@ -31,7 +31,13 @@ header{
     max-width: 1200px;
     padding: 0 20px 10px 20px;
     flex-wrap: wrap;
-    gap: 30px;
+}
+
+.header-navbar {
+    display: flex; 
+    flex-direction: row;
+    align-items: center; 
+    gap: 100px; 
 }
 
 .header-links{
@@ -111,7 +117,7 @@ fieldset {
 legend {
     font-family: 'Montserrat', sans-serif;
     font-weight: 700;
-    color: (#4FBF8E);
+    color: #4FBF8E;
     padding: 0 10px;
 }
 
