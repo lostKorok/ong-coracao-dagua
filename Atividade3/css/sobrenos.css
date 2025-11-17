@@ -1,0 +1,329 @@
+@font-face {
+    font-family: Montserrat;
+    src: url("../fonts/Montserrat-Bold.ttf") format("truetype");
+    font-weight: 700;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: Poppins;
+    src: url("../fonts/Poppins-Regular.ttf") format("truetype");
+    font-weight: 400;
+    font-style: normal;
+    font-display: swap;
+}
+
+*{
+    margin: 0;
+    padding: 0;
+}
+
+header{
+    background-color: rgba(0, 0, 0, 0.6);
+    font-family: 'Poppins', sans-serif;
+}
+
+.container-header{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    max-width: 1200px;
+    padding: 0 20px 10px 20px;
+    flex-wrap: wrap;
+}
+
+.header-navbar {
+    display: flex; 
+    flex-direction: row;
+    align-items: center; 
+    gap: 100px; 
+}
+
+.header-links{
+    display: block;
+    color: #4FBF8E;
+    background-color: #FFFFFF;
+    text-decoration: none;
+    text-align: center;
+    line-height: 0;
+    padding-top: 25px;
+    width: 130px;
+    height: 20px;
+    margin-top: 15px;
+    border: #4FBF8E 3px solid;
+    border-radius: 20px;
+}
+
+.header-links a{
+    color: #4FBF8E;
+    text-decoration: none;
+}
+
+.header-logo img{
+    display: block;
+    margin-top: 10px;
+    width: 200px;    
+    height: auto; 
+    max-width: 100%; 
+}
+
+body{
+    background-image: url(../img/bela-foto-das-ondas-mar.jpg);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-color: #105989;
+}
+
+h1{
+    font-family: Montserrat, sans-serif;
+    font-size: 64px;
+    color: #FFFFFF;
+    text-align: center;
+    margin-top: 100px;
+}
+
+
+
+section.introducao p{
+    font-family: Poppins, sans-serif;
+    font-size: 24px;
+    text-align: center;
+    color: #E0FFFF;
+    margin: 30px 80px 0 80px;
+    padding: 40px 0 50px 40px;
+    background-color: #0b3b5a;
+    border-radius: 40px;
+}
+
+hr{
+    margin: 0 40px 20px auto;
+    border-radius: 20px;
+}
+
+section.introducao h2{
+    font-family: Poppins, sans-serif;
+    font-size: 34px;
+    text-align: center;
+    margin-top: 120px;
+}
+
+section.fundamentos{
+    font-family: Poppins, sans-serif;
+    font-size: 24px;
+    text-align: center;
+    color: #E0FFFF;
+    margin: 30px 80px 0 80px;
+    padding: 40px 0 50px 40px;
+    background-color: #0b3b5a;
+    border-radius: 40px;
+}
+
+section.fundamentos h2{
+    margin: 0 0 50px;
+}
+
+section.fundamentos p{
+    margin: 50px;
+}
+
+.metricas{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 20px;
+}
+
+.bloco-metrica{
+    width: 90%;
+    text-align: center;
+    margin-bottom: 30px;
+    padding: 20px;
+    border: 1px solid #4FBF8E;
+}
+
+.numero-destaque{
+    font-size: 42px;
+    color: #4FBF8E;
+    font-family: Montserrat, sans-serif;
+    margin-bottom: 5px;
+}
+
+section.impacto{
+    background-color: #0b3b5a;
+    margin: 40px 80px 0 80px;
+    padding: 40px 0 50px 40px;
+    border-radius: 40px;
+}
+
+.resultados{
+    font-family: Montserrat, sans-serif;
+    text-align: center;
+    color: #E0FFFF;
+    font-size: 40px;
+}
+
+.intro{
+    font-family: poppins, sans-serif;
+    text-align: center;
+    color: #E0FFFF;
+    font-size: 28px;
+    margin: 40px 100px;
+}
+
+article p{
+    font-family: Poppins, sans-serif;
+    font-size: 26px;
+    color: #E0FFFF;
+}
+
+i{
+    font-size: 48px;
+    color: #4FBF8E;
+    margin-bottom: 10px;
+}
+
+.transparencia h2{
+    color: #E0FFFF;
+    font-family: Montserrat, sans-serif;
+    font-size: 40px;
+    text-align: center;
+    margin-top: 60px;
+}
+
+.transparencia h3{
+    color: #E0FFFF;
+    font-family: Montserrat, sans-serif;
+    font-size: 26px;
+    text-align: center;
+    margin-top: 40px;
+}
+
+.relatorio{
+    font-family: Poppins, sans-serif;
+    font-size: 30px;
+    text-decoration: none;
+    color: #4FBF8E;
+    background-color: #FFFFFF;
+    text-align: center;
+    display: block;
+    width: 480px;
+    height: 60px;
+    border: #4FBF8E 3px solid;
+    border-radius: 20px;
+    line-height: 66px;
+    margin: 40px auto;
+}
+
+.transparencia p{
+    font-family: Poppins, sans-serif;
+    font-size: 24px;
+    color: #E0FFFF;
+    text-align: center;
+    margin: 30px 80px 0 80px;
+}
+.container-equipe{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    margin-bottom: 30px;
+}
+
+.card-perfil{
+    background-color: #0b3b5a;
+    width: 90%; 
+    text-align: center;
+    padding: 20px;
+    border: 1px solid #BBF3F9; 
+    border-radius: 8px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.05); 
+    margin-right: 20px;
+}
+
+.foto-perfil {
+    width: 120px; 
+    height: 120px;
+    border-radius: 50%; 
+    object-fit: cover;
+    margin-bottom: 15px;
+}
+
+.nome-membro {
+    font-family: 'Montserrat', sans-serif;
+    color: #003B46;
+    margin-bottom: 5px;
+}
+
+.cargo-lider {
+    font-family: 'Poppins', sans-serif;
+    color: #4FBF8E; 
+    font-weight: 600;
+    margin-bottom: 10px;
+}
+
+footer {
+    background-color: #003B46; 
+    color: #FFFFFF;
+    font-family: 'Poppins', sans-serif;
+    padding-top: 50px;
+}
+
+.container-footer {
+    display: flex;
+    flex-direction: row; 
+    justify-content: space-between; 
+    max-width: 1200px; 
+    margin: 0 auto;
+    padding: 0 20px 40px 20px; 
+    flex-wrap: wrap; 
+    gap: 30px; 
+}
+
+.footer-coluna {
+    width: 30%; 
+}
+
+.footer-coluna h3 {
+    font-family: 'Montserrat', sans-serif;
+    color: #4FBF8E;
+    margin-bottom: 15px;
+    font-size: 19px;
+}
+
+.footer-coluna ul {
+    list-style: none; 
+    padding: 0;
+}
+
+.footer-coluna ul li a {
+    color: #E0FFFF; 
+    text-decoration: none;
+    line-height: 1.8;
+    transition: color 0.3s;
+}
+
+.footer-coluna ul li a:hover {
+    color: #FFFFFF;
+}
+
+
+.footer-coluna img {
+    width: 240px;
+    height: auto;
+    margin-bottom: 10px;
+}
+
+
+.footer-copyright {
+    background-color: rgba(0, 0, 0, 0.2); 
+    text-align: center;
+    padding: 15px 0;
+    font-size: 14px;
+    border-top: 1px solid rgba(255, 255, 255, 0.1); 
+}
+
+.footer-copyright p {
+    margin: 0;
+    color: rgba(255, 255, 255, 0.7);
+}
