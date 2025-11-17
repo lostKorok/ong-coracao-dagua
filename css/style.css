@@ -14,11 +14,11 @@
     font-display: swap;
 }
 
-
 *{
     margin: 0;
     padding: 0;
 }
+
 
 header{
     background-color: rgba(0, 0, 0, 0.6);
@@ -66,13 +66,12 @@ header{
 }
 
 body{
-    background-image: url("../img/oceano-limpo.jpg");
+    background-image: url("../img/mar-por-do-sol.jpg");
     background-size: cover;
-    background-position: center;
     background-repeat: no-repeat;
     background-color: #0b3b5a;
+    background-attachment: fixed;
 }
-
 
 h1{
     font-family: Montserrat, sans-serif;
@@ -109,6 +108,14 @@ main a{
     border-radius: 20px;
     line-height: 66px;
     margin: 40px auto;
+}
+
+section img{
+    width: 545px;
+    height: auto;
+    margin-left: 314px;
+    border-radius: 20px;
+    padding: -20px;
 }
 
 .doacao{
@@ -159,6 +166,13 @@ main a{
     margin: 100px 0 0 200px;
 }
 
+h4{
+    color: #FFFFFF;
+}
+
+li a{
+    color: #FFFFFF;
+}
 
 footer {
     background-color: #003B46;
