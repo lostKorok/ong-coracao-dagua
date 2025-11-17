@@ -146,7 +146,7 @@ input:focus {
 }
 
 footer {
-    background-color: #003B46;
+    background-color: #003B46; 
     color: #FFFFFF;
     font-family: 'Poppins', sans-serif;
     padding-top: 50px;
@@ -163,16 +163,15 @@ footer {
     gap: 30px; 
 }
 
-
 .footer-coluna {
     width: 30%; 
 }
 
 .footer-coluna h3 {
     font-family: 'Montserrat', sans-serif;
-    color: #4FBF8E; 
+    color: #4FBF8E;
     margin-bottom: 15px;
-    font-size: 1.2em;
+    font-size: 19px;
 }
 
 .footer-coluna ul {
@@ -188,20 +187,22 @@ footer {
 }
 
 .footer-coluna ul li a:hover {
-    color: #FFFFFF; 
+    color: #FFFFFF;
 }
 
+
 .footer-coluna img {
-    width: 240px; 
+    width: 240px;
     height: auto;
     margin-bottom: 10px;
 }
 
+
 .footer-copyright {
-    background-color: rgba(0, 0, 0, 0.2);
+    background-color: rgba(0, 0, 0, 0.2); 
     text-align: center;
     padding: 15px 0;
-    font-size: 0.9em;
+    font-size: 14px;
     border-top: 1px solid rgba(255, 255, 255, 0.1); 
 }
 
